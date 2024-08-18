@@ -33,3 +33,9 @@ This project involves exploratory data analysis (EDA) on a healthcare dataset. T
 1. Clone the repository:
    ```bash
    git clone https://github.com/Seid-M-Adem/healthcare-analytics-eda-.git
+
+##Navigate to the project directory:
+cd healthcare-analytics-eda
+## Install the required packages:
+pip install -r requirements.txt
+
