@@ -6,12 +6,15 @@ setup(
     packages=find_packages(),
     install_requires=[
         'pandas',
+        'numpy',
         'matplotlib',
         'seaborn',
-        'jupyter',
+        'scikit-learn',
     ],
-    description='Exploratory Data Analysis of Healthcare Data',
-    author='Seid M Adem',
-    author_email='seid.adem@gmx.ch',
+    entry_points={
+        'console_scripts': [
+            'data_processing=src.data_processing:main',
+            'visualization=src.visualization:main',
+        ],
+    },
 )
-
