@@ -6,4 +6,7 @@ This document provides detailed information on the datasets used for the Healthc
 - **Description**: This dataset contains detailed analytics related to healthcare access, outcomes, and various health metrics. It includes data on patient demographics, healthcare services, and outcomes, making it highly relevant for analysis in the project.
 - **Source**: [Healthcare Dataset from Kaggle](https://www.kaggle.com/code/rv1922/health-care-analytics/input)
 - **File**: `healthcare_dataset.csv`
-- **Details**: This file can be directly downloaded and used as a comprehensive source for healthcare analysis, including metrics on service accessibility and patient outcomes.
+- **Details**: About this file
+- **This dataset consists of 10,000 records, each representing a synthetic patient healthcare record.
+- **It includes various attributes, such as patient demographics, medical conditions, admission details, and more.
+- **The dataset is intended for educational and non-commercial use. It is entirely synthetic and does not contain real patient data.
